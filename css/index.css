@@ -1,0 +1,62 @@
+
+#mainimage {
+    width: 115rem;
+    height: 50rem;
+    margin-bottom: -4px;
+}
+
+.textcontent {
+    background-color: black;
+    padding: 4rem;
+    margin-inline: 4rem;
+    top: 8rem;
+    font-size: 2rem;
+    position: absolute;
+    color: rgb(167, 167, 167);
+    max-width: 50rem;
+}
+
+#mindful {
+    text-shadow: 0 0 1rem rgb(0, 255, 21);
+}
+
+hr {
+    border: solid 0.3px rgb(190, 190, 190);
+    opacity: 80%;
+    margin-block: 3rem;
+    box-shadow: 0rem 0rem 1rem 3px greenyellow;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+article {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+#lowercontentbox {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+  #lowercontentL {
+    flex: 1;
+    font-size: 1.5rem;
+    padding-inline: 5rem;
+    margin: 3rem;
+    color: rgb(197, 197, 197);
+  }
+
+  #lowercontentR {
+    flex: 2;
+    font-size: 1.5rem;
+    padding-inline: 5rem;
+    margin: 3rem;
+    color: rgb(197, 197, 197);
+  }
