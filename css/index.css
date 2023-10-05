@@ -1,11 +1,13 @@
 #mainimage {
-  width: 115rem;
+  max-width: 115rem;
   height: 50rem;
+  margin-bottom: -4px;
 }
 
 .textcontent {
   background-color: black;
   padding: 4rem;
+  padding-top: 8rem;
   margin-inline: 4rem;
   top: 8rem;
   font-size: 2rem;
@@ -59,7 +61,7 @@ article {
   flex: 1;
   font-size: 1.3rem;
   padding-inline: 5rem;
-  padding-top: 3.5rem;
+  padding-top: 6rem;
   margin: 3rem;
   color: rgb(177, 177, 177);
   max-width: 40rem;
@@ -67,7 +69,8 @@ article {
 }
 
 span {
-   text-shadow: 0 0 2rem rgb(0, 255, 21);  
+   text-shadow: 0 0 2rem rgb(0, 255, 21);
+   margin-bottom: -2rem;
 }
 
 .buttonwrapper {
@@ -76,14 +79,13 @@ span {
 }
 
 .learnmore {
-    position: absolute;
+    position: relative;
   display: inline block;
   color: gray;
   border-radius: 0.75rem;
-  left: 70rem;
-    width: 5%;
+  left: 23rem;
+    width: 20%;
     height: 2.1rem;
-    left: 33rem;
     background-color: transparent;
     cursor: pointer;
     
@@ -92,8 +94,9 @@ span {
 .learnmore:hover {
   background-color: rgb(0, 255, 21);
   transition: 0.3s;
-  color: black;
-  box-shadow: 0rem 0rem 0.5rem 1px rgba(0, 255, 21, 0.534);
+  color: rgb(197, 197, 197);
+  background-color: transparent;
+  box-shadow: 0rem 0rem 2rem 3px rgb(0, 255, 21);
   border-style: none;
 }
 
@@ -103,7 +106,7 @@ span {
   flex: 1;
   font-size: 1.3rem;
   padding-inline: 5rem;
-  padding-top: 6rem;
+  padding-top: 7rem;
   margin: 3rem;
   color: rgb(177, 177, 177);
   max-width: 55rem;
@@ -114,7 +117,7 @@ span {
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 72.5rem;
+  top: 70rem;
   margin-inline: -3.5rem;
   filter: drop-shadow(0 0 0.5rem rgb(30, 255, 0));
 }
@@ -123,7 +126,7 @@ span {
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 87rem;
+  top: 82.5rem;
   margin-inline: -3.5rem;
   filter: drop-shadow(0 0 0.5rem rgb(30, 255, 0));
 }
@@ -132,7 +135,7 @@ span {
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 101rem;
+  top: 93rem;
   margin-inline: -3.5rem;
   filter: drop-shadow(0 0 0.5rem rgb(30, 255, 0));
 }
