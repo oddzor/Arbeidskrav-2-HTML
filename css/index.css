@@ -139,3 +139,54 @@ span {
   margin-inline: -3.5rem;
   filter: drop-shadow(0 0 0.5rem rgb(30, 255, 0));
 }
+
+footer {
+  border-top: solid 1px rgba(0, 100, 0, 0.185);
+  padding-block: 1rem;
+  font-size: 0.7rem;
+  text-align: left;
+  color: rgba(197, 197, 197, 0.5);
+}
+
+#iglogo {
+  opacity: 50%;
+position: relative;
+float: right;
+bottom: 1.5em;
+margin-left: 2rem;
+height: 1.5rem;
+width: 1.5rem;
+}
+
+#iglogo:hover {
+  opacity: 100%;
+}
+
+#fblogo:hover {
+  opacity: 100%;
+}
+
+#xlogo:hover {
+  opacity: 100%;
+}
+
+#fblogo {
+  opacity: 50%;
+  position: relative;
+  float: right;
+  bottom: 1.5em;
+  margin-inline: 2rem;
+  height: 1.5rem;
+  width: 1rem;
+}
+
+#xlogo {
+  opacity: 50%;
+  position: relative;
+  float: right;
+  bottom: 1.5em;
+  margin-inline: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+

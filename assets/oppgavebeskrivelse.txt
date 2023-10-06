@@ -1,52 +1,15 @@
 
 Arbeidskrav #2 - HTML og CSS
 
-•Alle hjelpemidler og kodeeditor er tillatt
-•Individuell innlevering
 •Vurdering: Godkjent / Ikke godkjent
 
 Oppgave: Turistfirmaet Mindful Tourism AS trenger en nettside for å vise frem forskjellige turistattraksjoner i Norge og tiltrekke seg nye kunder. 
 Det er viktig for selskapet å ha en visuelt attraktiv nettside, mendu står fritt til å velge fargepalletten til selskapet, pass på at du bygger opp firmaets miljøvennlige image.
 Følgende kriterier stilles til oppgaven og skal inkluderes:
 
-Sider:
-
-- Forside
-- Om oss
-- Kontakt oss
-
-Tagger:
-
-<title>
-<header>
-<main>
-<footer>
-<ul> eller <ol>
-<li>
-<div>
-<a>
-<button>
-<p>
-<img>
-
 
 CSS properties:
 
-Width/height
 Background-color / background-image
-Color
-Margin
-Padding
-Border
-Position
 
-Krav til funksjonalitet:
-
-•Nettsiden skal være oversiktlig
-•Navigasjonen skal lede til riktige sider
-•En liste skal bli tatt i bruk
-•Alle bilder skal dukke opp på nettsiden
-•All styling skal gjøres i css-dokumentene, ikke i html-dokumentene.
-•CSS dokumentene skal kobles opp mot html på rett måte.
-•HTML dokumentene skal følge et semantisk oppsett
-•Det skal være en ryddig mappestruktur•Alle klassenavn skal være på engelsk.Innlevering: Oppgaven skal leveres i en zippet mappe, som inneholder alle filene og assets.
+Oppgaven skal leveres i en zippet mappe, som inneholder alle filene og assets.

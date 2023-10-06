@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mindful Tourism - Contact</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/contact.css" />
   </head>
   <body>
@@ -34,11 +34,27 @@
     </header>
     <main>
       <div class="contentwrapper">
-        <img
-          src="./images/formbackground.png"
-          id="mainimage"
-          alt="leaves in the jungle"
-        />
+        <div class="formwrapper">
+          <img
+            src="./images/formbackground.png"
+            id="mainimage"
+            alt="leaves in the jungle"
+          />
+
+          <form class="contactform">
+            <label for="fname"></label>
+            <input type="text" placeholder="First Name" required />
+            <label for="lname"></label>
+            <input type="text" placeholder="Last Name" required />
+            <label for="email"></label>
+            <input type="email" placeholder="examplemail@mail.com" required />
+
+            <textarea
+              placeholder="Write about your requested information.."
+            ></textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
         <div class="textcontent">
           <h1>
             <span id="mindful">Get in touch</span>
@@ -46,17 +62,41 @@
           <hr />
           <article>
             <p>
-              Have questions or want to learn more about Mindful Tourism? We'd love to hear from you. Feel free to reach out to us through any of the following channels:</p>
-              
-              <p>Email: info@mindfultourism.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
-             <p>Address: 123 Mindful Way, Serenityville, Earth</p>
-              <p>We're here to assist you with any inquiries, booking information, or to simply chat about your travel aspirations. Our dedicated team is ready to help you plan your next mindful adventure.</p><p class="endingparagraph">Join us in our mission to
-            make travel a mindful and transformative experience.</p>
-            <p class="smallerparagraph">For specific requests, use adjacent form</p>
+              Have questions or want to learn more about Mindful Tourism? We'd
+              love to hear from you. Feel free to reach out to us through any of
+              the following channels:
+            </p>
+
+            <p>Email: info@mindfultourism.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Address: 123 Mindful Way, Serenityville, Earth</p>
+            <p>
+              We're here to assist you with any inquiries, booking information,
+              or to simply chat about your travel aspirations. Our dedicated
+              team is ready to help you plan your next mindful adventure.
+            </p>
+            <p class="endingparagraph">
+              Join us in our mission to make travel a mindful and transformative
+              experience.
+            </p>
+            <p class="smallerparagraph">
+              For specific requests, use adjacent form
+            </p>
           </article>
         </div>
-        </div>
+      </div>
     </main>
+    <footer>
+      © Mindful Tourism 2023
+      <div class="iconwrapper">
+        <a href="https://www.instagram.com"
+          ><img src="./assets/IG.png" id="iglogo" alt="instagram logo"</a
+        ><a href="https://www.facebook.com"
+          ><img src="./assets/FB.png" id="fblogo" alt="facebook logo" /></a
+        ><a href="https://www.twitter.com"
+          ><img src="./assets/X.png" id="xlogo" alt="twitter logo"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
