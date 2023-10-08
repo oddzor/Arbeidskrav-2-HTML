@@ -69,26 +69,25 @@ article {
 }
 
 span {
-   text-shadow: 0 0 2rem rgb(0, 255, 21);
-   margin-bottom: -2rem;
+  text-shadow: 0 0 2rem rgb(0, 255, 21);
+  margin-bottom: -2rem;
 }
 
 .buttonwrapper {
-    max-width:40rem;
-    min-width: 15rem;
+  max-width: 40rem;
+  min-width: 15rem;
 }
 
 .learnmore {
-    position: relative;
+  position: relative;
   display: inline block;
   color: gray;
   border-radius: 0.75rem;
   left: 23rem;
-    width: 20%;
-    height: 2.1rem;
-    background-color: transparent;
-    cursor: pointer;
-    
+  width: 20%;
+  height: 2.1rem;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .learnmore:hover {
@@ -150,12 +149,12 @@ footer {
 
 #iglogo {
   opacity: 50%;
-position: relative;
-float: right;
-bottom: 1.5em;
-margin-left: 2rem;
-height: 1.5rem;
-width: 1.5rem;
+  position: relative;
+  float: right;
+  bottom: 1.5em;
+  margin-left: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 #iglogo:hover {
@@ -189,4 +188,3 @@ width: 1.5rem;
   height: 1.5rem;
   width: 1.5rem;
 }
-

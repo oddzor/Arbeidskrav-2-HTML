@@ -1,62 +1,177 @@
-
 body {
-    background-color: gray;
+  background-color: rgb(0, 0, 0);
 }
 
 .contentwrapper {
-    padding-top: 10rem;
-}
-.flexwrapper {
-    background-color: rgb(80, 80, 80);
-    width: 100%;
-    }
+  font-size: 1.75rem;
 
+  padding-top: 10rem;
+  background-color: black;
+}
+
+.flexwrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.fleximage {
+  padding: 10rem;
+  padding-top: 5rem;
+}
+
+.flextext {
+  font-size: 1.5rem;
+  padding: 10rem;
+  padding-top: 5rem;
+  color: rgb(190, 190, 190);
+}
+
+.flextext > p {
+  font-size: 1rem;
+  padding-left: 2rem;
+  margin-block: 1.5rem;
+}
+
+span {
+  font-weight: 500;
+  text-shadow: 0 0 3rem rgb(0, 255, 21);
+}
+
+#pricinginfo {
+  font-size: 0.7rem;
+  opacity: 70%;
+}
+
+#lofoten,
+#mountains,
+#forest,
+#aurora {
+  border-radius: 0.75rem;
+  box-shadow: 0rem 0rem 0.5rem 1px rgba(0, 255, 21, 0.253);
+  opacity: 70%;
+}
+
+.listicon {
+  height: 20px;
+  width: 20px;
+  margin-block: 1.5rem;
+  filter: drop-shadow(0 0 0.5rem rgb(30, 255, 0));
+}
+
+.listicons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+#listicons1 {
+  top: 29.5rem;
+}
+
+#listicons2 {
+  top: 78rem;
+}
+
+#listicons3 {
+  top: 125rem;
+}
+
+#listicons4 {
+  top: 171rem;
+}
+
+#listicon7,
+#listicon8,
+#listicon9 {
+  margin-block: 1.5rem;
+}
+
+#listicon10,
+#listicon11,
+#listicon12 {
+  margin-block: 2.3rem;
+}
+
+button {
+  display: inline block;
+  color: rgb(190, 190, 190);
+  border-radius: 0.75rem;
+  left: 50rem;
+  bottom: 3rem;
+  margin-top: 1rem;
+  width: 15%;
+  height: 2.1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 255, 21);
+  transition: 0.3s;
+  color: rgb(197, 197, 197);
+  background-color: transparent;
+  box-shadow: 0rem 0rem 2rem 3px rgb(0, 255, 21);
+  border-style: none;
+}
+
+.disclaimer {
+  position: absolute;
+  top: 200rem;
+  left: 0rem;
+  width: 100%;
+  color: rgba(190, 190, 190, 0.466);
+  text-align: center;
+  font-size: 0.75rem;
+  padding-bottom: 2rem;
+}
 footer {
-    border-top: solid 1px rgba(0, 100, 0, 0.185);
-    padding-block: 1rem;
-    font-size: 0.7rem;
-    text-align: left;
-    color: rgba(197, 197, 197, 0.5);
-  }
-  
-  #iglogo {
-    opacity: 50%;
+  border-top: solid 1px rgba(0, 100, 0, 0.185);
+  padding-block: 1rem;
+  font-size: 0.7rem;
+  text-align: left;
+  color: rgba(197, 197, 197, 0.5);
+}
+
+#iglogo {
+  opacity: 50%;
   position: relative;
   float: right;
   bottom: 1.5em;
   margin-left: 2rem;
   height: 1.5rem;
   width: 1.5rem;
-  }
-  
-  #fblogo {
-    opacity: 50%;
-    position: relative;
-    float: right;
-    bottom: 1.5em;
-    margin-inline: 2rem;
-    height: 1.5rem;
-    width: 1rem;
-  }
-  
-  #xlogo {
-    opacity: 50%;
-    position: relative;
-    float: right;
-    bottom: 1.5em;
-    margin-inline: 2rem;
-    height: 1.5rem;
-    width: 1.5rem;
-  }
+}
 
-  #iglogo:hover {
-    opacity: 100%;
-  }
-  
-  #fblogo:hover {
-    opacity: 100%;
-  }
-  
-  #xlogo:hover {
-    opacity: 100%;
-  }
+#fblogo {
+  opacity: 50%;
+  position: relative;
+  float: right;
+  bottom: 1.5em;
+  margin-inline: 2rem;
+  height: 1.5rem;
+  width: 1rem;
+}
+
+#xlogo {
+  opacity: 50%;
+  position: relative;
+  float: right;
+  bottom: 1.5em;
+  margin-inline: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#iglogo:hover {
+  opacity: 100%;
+}
+
+#fblogo:hover {
+  opacity: 100%;
+}
+
+#xlogo:hover {
+  opacity: 100%;
+}

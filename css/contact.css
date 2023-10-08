@@ -130,7 +130,7 @@ textarea:focus {
 
 input {
   position: relative;
-  color: gray;
+  color: rgb(190, 190, 190);
   padding-left: 1rem;
   border-radius: 0.75rem;
   width: 30%;
@@ -181,7 +181,6 @@ footer {
   opacity: 100%;
 }
 
-
 #fblogo {
   opacity: 50%;
   position: relative;
@@ -196,7 +195,6 @@ footer {
   opacity: 100%;
 }
 
-
 #xlogo {
   opacity: 50%;
   position: relative;
@@ -210,4 +208,3 @@ footer {
 #xlogo:hover {
   opacity: 100%;
 }
-
