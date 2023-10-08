@@ -39,7 +39,7 @@ span {
   text-shadow: 0 0 3rem rgb(0, 255, 21);
 }
 
-#pricinginfo {
+.pricinginfo {
   font-size: 0.7rem;
   opacity: 70%;
 }
@@ -71,15 +71,15 @@ span {
 }
 
 #listicons2 {
-  top: 78rem;
+  top: 79.5rem;
 }
 
 #listicons3 {
-  top: 125rem;
+  top: 128rem;
 }
 
 #listicons4 {
-  top: 171rem;
+  top: 176rem;
 }
 
 #listicon7,
@@ -118,7 +118,7 @@ button:hover {
 
 .disclaimer {
   position: absolute;
-  top: 200rem;
+  top: 207rem;
   left: 0rem;
   width: 100%;
   color: rgba(190, 190, 190, 0.466);
